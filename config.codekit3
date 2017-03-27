@@ -9,6 +9,68 @@
 	],
 "creatorBuild": "25704",
 "files": {
+	"\/assets\/1-base\/base.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/1-base\/base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/3-layouts\/section.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/3-layouts\/section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 30558,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/sass\/about.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/header.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -22,12 +84,28 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
 	"\/jadefiles\/index.jade": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 2,
+		"oS": 0
+		},
+	"\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/main-min.css",
+		"oF": 0,
 		"oS": 0
 		}
 	},
