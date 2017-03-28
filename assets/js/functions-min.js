@@ -1,0 +1,1 @@
+$(window).scroll(function(){var o=$(window).scrollTop()/5;$(".logo").css({transform:"rotate("+o+"deg)"})});

@@ -30,36 +30,69 @@ html
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         .col-1.flex--center
-          h2 Image Placeholder
+          p.aboutImage
 
         
       section.technologies
-        h2 HTML5
+        .col-1.flex--center
+          h2 HTML5
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        h2 CSS3
+        .col-1.flex--center
+          h2 CSS3
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        h2 JavaScript
+        .col-1.flex--center
+          h2 JavaScript
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
           
       section.portfolio
-        h2 Image 1
-        h2 Image 2
-        h2 Image 3
-        h2 Image 4
-        h2 Image 5
-        h2 Image 6
+        .col-3.flex--center
+          p.portImage
+          p.portImage
+          p.portImage
+          p.portImage
+          p.portImage
+          p.portImage
         
       section.production
-        h2 YouTube
-        h2 Twitch
+        .col-2.flex--center
+          .youtube
+            h2 YouTube
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        .col-2.flex--center  
+          .twitch
+            h2 Twitch
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         
       section.setup
-        h2 Image 1
-        h2 Image 2
+        .col-2.flex--center
+          p.setupFull
+        .col-2.flex--center
+          p.setupList
+        
       section.contact
         h2 Interested in Hiring Me? Fill out the Form Below:
-        h2 Insert Form here
+          form(method='post', action="mailto:mdiggss@gmail.com")
+            p Name:
+              input(type='text', name='name', size="25", placeholder="Enter Your Name")
+            p Email:
+              input(type='email', name='email', size="25", placeholder="Enter Your Email")
+            p Website Topic:
+              input(type='text', name='topic', size="35", placeholder="Enter Your Website Topic")
+            p Design Ideas:
+              input(type='text', name='ideas', size="100", placeholder="Enter Some Design Ideas. Ex: Color Scheme/Theme")
+            p Date Needed By:
+              input(type='date', name='dateComplete', placeholder="Enter Your Desired Date of Completion")
+            input(type='submit', value='Send Email').formSubmit
+              
         h3 You can also get in touch with me/checkout my work at the links below:
-        h3 Insert Social-Media Links here
+        .col-4
+          a(href="https://twitter.com/MDiggss" target="_blank").twitterLogo
+          a(href="mailto:mdiggss@gmail.com").gmailLogo
+          a(href="https://www.facebook.com/mdiglio" target="_blank").facebookLogo
+          a(href="https://www.behance.net/mdiggss9382" target="_blank").behanceLogo
+          a(href="https://dribbble.com/MDiggss" target="_blank").dribbleLogo
+          a(href="https://github.com/Diglio" target="_blank").githubLogo
           
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../assets/js/functions-min.js"></script>        

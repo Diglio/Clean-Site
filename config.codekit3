@@ -35,6 +35,66 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/img\/behance-logo.png": {
+		"ft": 32768,
+		"iS": 12444,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/behance-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/dribble-logo.png": {
+		"ft": 32768,
+		"iS": 8888,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dribble-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/facebook-logo.png": {
+		"ft": 32768,
+		"iS": 25236,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/github-logo.png": {
+		"ft": 32768,
+		"iS": 8640,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/github-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gmail-logo.png": {
+		"ft": 32768,
+		"iS": 22779,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gmail-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/inAHat.png": {
+		"ft": 32768,
+		"iS": 461648,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/inAHat.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 30558,
@@ -45,6 +105,42 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/setup-list.png": {
+		"ft": 32768,
+		"iS": 287891,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/setup-list.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/setup.jpg": {
+		"ft": 16384,
+		"iS": 458010,
+		"oA": 0,
+		"oAP": "\/assets\/img\/setup.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/twitter-logo.gif": {
+		"ft": 4194304,
+		"iS": 7699,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter-logo.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/js\/functions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/functions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/sass\/about.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -54,6 +150,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/sass\/about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/contact.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/contact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -81,6 +190,58 @@
 		"oA": 0,
 		"oAP": "\/main.css",
 		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/portfolio.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/production.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/production.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/setup.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/setup.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/sass\/technologies.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/technologies.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
