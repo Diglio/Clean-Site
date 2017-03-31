@@ -5,21 +5,26 @@
   padding: 20px 0;
   font-family: sans-serif;
   position: fixed;
-  top: 0; }
+  top: 0;
+  z-index: 2; }
+  .home-wrap header .active {
+    font-size: 18px;
+    box-shadow: 0px 15px 10px -8px black; }
   .home-wrap header .site-nav ul {
     list-style: none;
     text-align: center;
     position: center; }
     .home-wrap header .site-nav ul li {
       display: inline;
-      font-size: 14px;
+      font-size: 16px;
       padding: 0 20px;
       position: relative;
       bottom: 25px; }
       .home-wrap header .site-nav ul li a {
         color: black;
         text-decoration: none;
-        font-weight: bold; }
+        font-weight: bold;
+        transition: border 1s ease-in-out, font-size 1s ease-in-out, box-shadow 1s ease-in-out; }
       .home-wrap header .site-nav ul li .logo {
         background-image: url(assets/img/logo.png);
         background-repeat: no-repeat;
@@ -51,6 +56,87 @@ section.technologies {
   justify-content: center;
   background-color: rgba(103, 190, 110, 0.3);
   align-items: center; }
+  section.technologies .col-1 {
+    position: relative;
+    perspective: 1000px; }
+    section.technologies .col-1 .htmlContainer {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      perspective: 1000px; }
+      section.technologies .col-1 .htmlContainer h2 {
+        cursor: pointer;
+        color: #D8D4D4;
+        margin: 0 auto;
+        height: 50px;
+        width: 200px;
+        background-color: green;
+        border-radius: 20px;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease-in-out; }
+        section.technologies .col-1 .htmlContainer h2:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 35px 20px -20px rgba(0, 0, 0, 0.5); }
+      section.technologies .col-1 .htmlContainer p {
+        transform: rotateX(90deg);
+        transform-origin: top;
+        opacity: 0;
+        transition: all 750ms ease-in-out; }
+      section.technologies .col-1 .htmlContainer .isClicked {
+        transform: rotateX(0deg);
+        opacity: 1;
+        background-color: #D8D4D4; }
+    section.technologies .col-1 .cssContainer {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      perspective: 1000px; }
+      section.technologies .col-1 .cssContainer h2 {
+        cursor: pointer;
+        color: #D8D4D4;
+        margin: 0 auto;
+        height: 50px;
+        width: 200px;
+        background-color: green;
+        border-radius: 20px;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease-in-out; }
+        section.technologies .col-1 .cssContainer h2:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 35px 20px -20px rgba(0, 0, 0, 0.5); }
+      section.technologies .col-1 .cssContainer p {
+        transform: rotateY(90deg);
+        opacity: 0;
+        transition: all 800ms ease-in-out; }
+      section.technologies .col-1 .cssContainer .isClicked {
+        transform: rotateX(0deg);
+        opacity: 1; }
+    section.technologies .col-1 .javaScriptContainer {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      perspective: 1000px; }
+      section.technologies .col-1 .javaScriptContainer h2 {
+        cursor: pointer;
+        color: #D8D4D4;
+        margin: 0 auto;
+        height: 50px;
+        width: 200px;
+        background-color: green;
+        border-radius: 20px;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease-in-out; }
+        section.technologies .col-1 .javaScriptContainer h2:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 35px 20px -20px rgba(0, 0, 0, 0.5); }
+      section.technologies .col-1 .javaScriptContainer p {
+        transform: translateX(-400px);
+        opacity: 0;
+        transition: all 800ms ease-in-out; }
+      section.technologies .col-1 .javaScriptContainer .isClicked {
+        transform: translateX(0px);
+        opacity: 1;
+        background-color: #D8D4D4; }
 
 section.portfolio {
   flex-direction: row;
@@ -64,8 +150,18 @@ section.portfolio {
   section.portfolio .portImage {
     width: 250px;
     height: 250px;
-    background-color: white;
-    margin: 25px; }
+    background-image: url(../assets/img/techbytes-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #D8D4D4;
+    margin: 25px;
+    border: 1px ridge black; }
+  section.portfolio .image1 {
+    transform: scale(1);
+    transition: all 500ms ease-in-out; }
+    section.portfolio .image1:hover {
+      transform: scale(1.1);
+      box-shadow: inset 0 0 20px blue; }
 
 section.production {
   flex-direction: row;
@@ -128,7 +224,10 @@ section.contact {
       width: 50px;
       height: 50px;
       margin: 25px;
-      box-shadow: 0 5px 20px 0 #1DA1F2; }
+      box-shadow: 0 5px 20px 0 #1DA1F2;
+      transition: all 1s ease-in-out; }
+      section.contact .col-4 .twitterLogo:hover {
+        transform: scale(1.3); }
     section.contact .col-4 .gmailLogo {
       background-image: url(../assets/img/gmail-logo.png);
       background-size: contain;

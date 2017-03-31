@@ -124,6 +124,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/techbytes-logo.png": {
+		"ft": 32768,
+		"iS": 362524,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/img\/techbytes-logo.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/twitter-logo.gif": {
 		"ft": 4194304,
 		"iS": 7699,
@@ -131,6 +141,15 @@
 		"oAP": "\/assets\/img\/twitter-logo.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/assets\/js\/functions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/functions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,

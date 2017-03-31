@@ -4,3 +4,105 @@ section.technologies
   background:
     color: rgba(#67BE6E, 0.3)
   align-items: center
+
+  .col-1
+    position: relative
+    perspective: 1000px
+
+    .htmlContainer
+      height: 100%
+      width: 100%
+      text-align: center
+      perspective: 1000px
+
+      h2
+        cursor: pointer
+        color: #D8D4D4
+        margin: 0 auto
+        height: 50px
+        width: 200px
+        background:
+          color: green
+        border-radius: 20px
+        box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5)
+        transition: all 500ms ease-in-out
+
+        &:hover
+          transform: translateY(-10px)
+          box-shadow: 0 35px 20px -20px rgba(0,0,0,0.5)
+
+      p
+        transform: rotateX(90deg)
+        transform-origin: top
+        opacity: 0
+        transition: all 750ms ease-in-out
+
+
+      .isClicked
+        transform: rotateX(0deg)
+        opacity: 1
+        background-color: #D8D4D4
+
+
+    .cssContainer
+      height: 100%
+      width: 100%
+      text-align: center
+      perspective: 1000px
+
+      h2
+        cursor: pointer
+        color: #D8D4D4
+        margin: 0 auto
+        height: 50px
+        width: 200px
+        background:
+          color: green
+        border-radius: 20px
+        box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5)
+        transition: all 500ms ease-in-out
+
+        &:hover
+          transform: translateY(-10px)
+          box-shadow: 0 35px 20px -20px rgba(0,0,0,0.5)
+
+      p
+        transform: rotateY(90deg)
+        opacity: 0
+        transition: all 800ms ease-in-out
+
+      .isClicked
+        transform: rotateX(0deg)
+        opacity: 1
+
+    .javaScriptContainer
+      height: 100%
+      width: 100%
+      text-align: center
+      perspective: 1000px
+
+      h2
+        cursor: pointer
+        color: #D8D4D4
+        margin: 0 auto
+        height: 50px
+        width: 200px
+        background:
+          color: green
+        border-radius: 20px
+        box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5)
+        transition: all 500ms ease-in-out
+
+        &:hover
+          transform: translateY(-10px)
+          box-shadow: 0 35px 20px -20px rgba(0,0,0,0.5)
+
+      p
+        transform: translateX(-400px)
+        opacity: 0
+        transition: all 800ms ease-in-out
+
+      .isClicked
+        transform: translateX(0px)
+        opacity: 1
+        background-color: #D8D4D4
